@@ -34,7 +34,7 @@ Try it instantly online:
 
 <div align="center">
   <video width="700" controls>
-    <source src="https://github.com/rathod-0007/AI-Resume-Analyser/raw/main/assets/AiResumeAnalyser.mp4" type="video/mp4">
+   [ <source src="https://github.com/rathod-0007/AI-Resume-Analyser/raw/main/assets/AiResumeAnalyser.mp4" type="video/mp4">](https://github.com/rathod-0007/AI-Resume-Analyser/issues/1#issue-3301979655)
     Your browser does not support the video tag.
   </video>
   <p><i>Watch a quick demo of the AI Resume Analyzer</i></p>
