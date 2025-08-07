@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Docker%20Space-red)
 ![Groq LLM](https://img.shields.io/badge/LLM-Groq-lightgrey)
 
-An AI-powered resume analyser that compares resumes to job descriptions using NLP and vector similarity, offers tailored feedback, and even generates cover letters. Built with Streamlit, Groq API, SentenceTransformers, and deployed on Hugging Face via Docker.
+An AI-powered resume analyser that compares resumes to job descriptions using NLP and vector similarity, offers tailored feedback, and even generates cover letters. Built with Streamlit, Gemini API, SentenceTransformers, and deployed on Streamlit.
 
 <div align="center">
  <img src="https://github.com/pawan941394/-AI-Resume-Analyzer/blob/main/screenshoots/Screenshot%202025-03-29%20115400.png" alt="AI Resume Analyzer Screenshot">
@@ -21,16 +21,12 @@ Try it instantly online:
 - **Resume Upload**: Upload one or more PDF resumes for evaluation  
 - **Job Description Input**: Paste or upload a JD to analyze against  
 - **AI Cover Letter**: Get an AI-generated cover letter tailored to the job  
-- **Match Scoring**: See how well your resume aligns with the job  
-- **Skill Radar**: Visual radar chart of your skill alignment  
+- **Match Scoring**: See how well your resume aligns with the job   
 - **Missing Keywords**: Identify key skills missing from your resume  
 - **Q&A Chatbot**: Ask questions based on your resume or JD  
-- **Voice Input**: Use whisper to input JD via speech  
-- **Groq API LLM**: High-speed inference with Groq LLM  
-- **Streamlit Docker**: Fully containerized and deployed on Hugging Face
+- **Gemini API LLM**: High-speed inference with Gemini LLM  
+- **Streamlit Docker**: Fully containerized and deployed on Streamlit
 ## 🎥 Live Demo & Walkthrough
-
-## 🎥 Project Demo
 
 [![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://github.com/user-attachments/assets/5f177f81-bd94-452e-a377-e1b84f6474fa)
 
@@ -42,8 +38,8 @@ Try it instantly online:
 
 - Python 3.9+
 - Hugging Face Account (for deployment)
-- Groq API Key ([Get it here](https://console.groq.com/))
-- Docker (for container deployment)
+- Gemini API Key ([Get it here](https://ai.google.dev/gemini-api/docs/api-key))
+- Streamlit (for opensource deployment)
 
 ## 🔧 Installation (Local)
 
@@ -61,7 +57,7 @@ streamlit run resume_analyser.py
 - Compare with JD using **cosine similarity**
 - Score & Recommend improvements
 - Generate a Cover Letter
-- Use **Groq LLM** to accelerate responses
+- Use **Gemini LLM** to accelerate responses
 
 ---
 
@@ -70,24 +66,22 @@ streamlit run resume_analyser.py
 - **SentenceTransformers** (NLP)
 - **Groq API** (LLM)
 - **PyPDF2** (PDF parsing)
-- **Whisper/FasterWhisper** (optional voice input)
-- **Docker**, **Hugging Face Spaces**
+- **Docker**, **Streamlit**
 
 ---
 
-## 🐳 Docker Deployment (For Hugging Face)
-1. Ensure your Dockerfile runs: `streamlit run resume_analyser.py`
-2. Push to Hugging Face with Docker SDK selected
-3. Add environment secret `GROQ_API_KEY` in the Hugging Face repo settings
-4. Done! App will run on `your-space-name.hf.space`
+## 🐳 Streamlit Deployment (For streamlitshare.io)
+1. Ensure your main.py runs: `streamlit run resume_analyser.py`
+2. Push to Streamlit
+3. Add environment secret `GEMINI_API_KEY` from Google Gemini Studio
+4. Done! App will run on `Streamlit`
 
 ---
 
 ## 🔐 API Key Setup
-- Get your **Groq API key** from [Groq Cloud](https://console.groq.com/)
+- Get your **Gemini API key** from [Google Gemini Studio](https://ai.google.dev/gemini-api/docs/api-key)
 - Set it as an environment variable:
-  - In `.env`: `GROQ_API_KEY=your_key`
-  - Or add it to Hugging Face Space secrets
+  - In `.env`: `GEMINI_API_KEY=your_key`
 
 ---
 
