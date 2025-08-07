@@ -32,13 +32,10 @@ Try it instantly online:
 
 ## 🎥 Project Demo
 
-<div align="center">
-  <video width="700" controls>
-   [ <source src="https://github.com/rathod-0007/AI-Resume-Analyser/raw/main/assets/AiResumeAnalyser.mp4" type="video/mp4">](https://github.com/rathod-0007/AI-Resume-Analyser/issues/1#issue-3301979655)
-    Your browser does not support the video tag.
-  </video>
-  <p><i>Watch a quick demo of the AI Resume Analyzer</i></p>
-</div>
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://github.com/user-attachments/assets/5f177f81-bd94-452e-a377-e1b84f6474fa)
+
+<p align="center"><i>Click the image above to watch a quick demo of the AI Resume Analyzer</i></p>
+
 
 
 ## 📋 Prerequisites
