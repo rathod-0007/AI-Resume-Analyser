@@ -30,12 +30,14 @@ Try it instantly online:
 - **Streamlit Docker**: Fully containerized and deployed on Hugging Face
 ## 🎥 Live Demo & Walkthrough
 
+## 🎥 Project Demo
+
 <div align="center">
-  <video width="80%" controls>
-    <source src="https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/assets/demo.mp4?raw=true" type="video/mp4">
+  <video width="700" controls>
+    <source src="https://github.com/rathod-0007/AI-Resume-Analyser/raw/main/assets/AiResumeAnalyser.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p><i>Watch the end-to-end project demonstration</i></p>
+  <p><i>Watch a quick demo of the AI Resume Analyzer</i></p>
 </div>
 
 
