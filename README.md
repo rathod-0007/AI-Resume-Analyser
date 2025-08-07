@@ -8,7 +8,7 @@
 An AI-powered resume analyser that compares resumes to job descriptions using NLP and vector similarity, offers tailored feedback, and even generates cover letters. Built with Streamlit, Groq API, SentenceTransformers, and deployed on Hugging Face via Docker.
 
 <div align="center">
- <img src="https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/assets/screenshot.png" alt="AI Resume Analyzer Screenshot" width="80%">
+ <img src="https://github.com/pawan941394/-AI-Resume-Analyzer/blob/main/screenshoots/Screenshot%202025-03-29%20115400.png" alt="AI Resume Analyzer Screenshot">
 </div>
 
 ## 🌐 Live Demo
