@@ -64,7 +64,7 @@ streamlit run resume_analyser.py
 ## 📦 Tech Stack
 - **Python**, **Streamlit**
 - **SentenceTransformers** (NLP)
-- **Groq API** (LLM)
+- **Gemini API** (LLM)
 - **PyPDF2** (PDF parsing)
 - **Docker**, **Streamlit**
 
