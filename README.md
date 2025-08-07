@@ -28,14 +28,16 @@ Try it instantly online:
 - **Voice Input**: Use whisper to input JD via speech  
 - **Groq API LLM**: High-speed inference with Groq LLM  
 - **Streamlit Docker**: Fully containerized and deployed on Hugging Face
-
-## 📸 Screenshots
+## 🎥 Live Demo & Walkthrough
 
 <div align="center">
-  <img src="https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/assets/analysis.png" width="48%">
-  <img src="https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/assets/chat.png" width="48%">
-  <p><i>Visual analysis and AI chat support</i></p>
+  <video width="80%" controls>
+    <source src="https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/assets/demo.mp4?raw=true" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><i>Watch the end-to-end project demonstration</i></p>
 </div>
+
 
 ## 📋 Prerequisites
 
