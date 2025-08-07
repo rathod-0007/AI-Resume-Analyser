@@ -51,3 +51,56 @@ git clone https://github.com/rathod-0007/AI-Resume-Analyser.git
 cd AI-Resume-Analyser
 pip install -r requirements.txt
 streamlit run resume_analyser.py
+```
+---
+
+## 🛠 How It Works
+- Extract Resume Text using **PyPDF2**
+- Embed Texts with **sentence-transformers**
+- Compare with JD using **cosine similarity**
+- Score & Recommend improvements
+- Generate a Cover Letter
+- Use **Groq LLM** to accelerate responses
+
+---
+
+## 📦 Tech Stack
+- **Python**, **Streamlit**
+- **SentenceTransformers** (NLP)
+- **Groq API** (LLM)
+- **PyPDF2** (PDF parsing)
+- **Whisper/FasterWhisper** (optional voice input)
+- **Docker**, **Hugging Face Spaces**
+
+---
+
+## 🐳 Docker Deployment (For Hugging Face)
+1. Ensure your Dockerfile runs: `streamlit run resume_analyser.py`
+2. Push to Hugging Face with Docker SDK selected
+3. Add environment secret `GROQ_API_KEY` in the Hugging Face repo settings
+4. Done! App will run on `your-space-name.hf.space`
+
+---
+
+## 🔐 API Key Setup
+- Get your **Groq API key** from [Groq Cloud](https://console.groq.com/)
+- Set it as an environment variable:
+  - In `.env`: `GROQ_API_KEY=your_key`
+  - Or add it to Hugging Face Space secrets
+
+---
+
+## 👤 Author
+**Rathod Pavan Kumar Naik**  
+GitHub: [@rathod-0007](https://github.com/rathod-0007)  
+Project: [AI-Resume-Analyser](https://github.com/rathod-0007/AI-Resume-Analyser)
+
+---
+
+## 📄 License
+This project is licensed under the **Apache License 2.0** — see the [LICENSE](https://github.com/rathod-0007/AI-Resume-Analyser/blob/main/LICENSE) file.
+
+---
+
+## ⭐️ Support
+If you found this project helpful, consider giving it a **⭐️** on GitHub!
