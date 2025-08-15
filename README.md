@@ -3,7 +3,7 @@
 ![Resume Analyzer Banner](https://img.shields.io/badge/AI-Resume%20Analyser-blue)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-brightgreen)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Docker%20Space-red)
-![Groq LLM](https://img.shields.io/badge/LLM-Groq-lightgrey)
+![Groq LLM](https://img.shields.io/badge/LLM-Gemini-lightgrey)
 
 An AI-powered resume analyser that compares resumes to job descriptions using NLP and vector similarity, offers tailored feedback, and even generates cover letters. Built with Streamlit, Gemini API, SentenceTransformers, and deployed on Streamlit.
 
